@@ -43,7 +43,7 @@ button:hover {
   border: 1px solid #000;
 }
 
-h1 {
+#h-tag {
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
   text-align: center;
