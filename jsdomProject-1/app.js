@@ -13,12 +13,12 @@
         }
        
         function main (){
-            const root = document.getElementById("root");
+            const root = document.getElementById("root");    // step 3 - collect all necessary referances 
         
-            const btn = document.getElementById("change-btn")
+            const btn = document.getElementById("change-btn") // step 3 - collect all necessary referances 
             console.log(root,btn);
             
-            btn.addEventListener("click",function(){
+            btn.addEventListener("click",function(){         // step 4 - handle the click event 
                 const bgColor = generatRGBColor();
                 console.log(bgColor);
                 root.style.backgroundColor = bgColor;
@@ -36,6 +36,6 @@
         return `rgb(${red},${green},${blue})`
     }
 
-    // step 3 - collect all necessary referances 
+    
 
-    // step 4 - handle the click event 
+    
